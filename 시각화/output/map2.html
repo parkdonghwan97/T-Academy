@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b94df6b155b8417fb164bf49a29eead1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b94df6b155b8417fb164bf49a29eead1" ></div>
+        
+</body>
+<script>    
+    
+            var map_b94df6b155b8417fb164bf49a29eead1 = L.map(
+                "map_b94df6b155b8417fb164bf49a29eead1",
+                {
+                    center: [37.50146, 127.039606],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_69f1138b36e14ff4b2f2c6f220bbddbe = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b94df6b155b8417fb164bf49a29eead1);
+        
+    
+            var marker_55eb6e2788cc40d9a49cf66d4b3136b5 = L.marker(
+                [37.50146, 127.039606],
+                {}
+            ).addTo(map_b94df6b155b8417fb164bf49a29eead1);
+        
+    
+            var icon_b52121be63f242b6bfc906cc9eb583ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bookmark", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_55eb6e2788cc40d9a49cf66d4b3136b5.setIcon(icon_b52121be63f242b6bfc906cc9eb583ec);
+        
+    
+        var popup_9a47b8387d5744ddba5aebd674cf29aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4a14eb6f5fc45fc91301cd2fab193a8 = $(`<div id="html_b4a14eb6f5fc45fc91301cd2fab193a8" style="width: 100.0%; height: 100.0%;">멀티캠퍼스</div>`)[0];
+            popup_9a47b8387d5744ddba5aebd674cf29aa.setContent(html_b4a14eb6f5fc45fc91301cd2fab193a8);
+        
+
+        marker_55eb6e2788cc40d9a49cf66d4b3136b5.bindPopup(popup_9a47b8387d5744ddba5aebd674cf29aa)
+        ;
+
+        
+    
+    
+            var circle_marker_8684482132af4d05b8e150ba9fa5bb3f = L.circleMarker(
+                [37.50146, 127.039606],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_b94df6b155b8417fb164bf49a29eead1);
+        
+    
+        var popup_ce04cf9c257847e89a128bd447c64974 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2b42b5a42c048bb90fe0c75a4cd4a03 = $(`<div id="html_a2b42b5a42c048bb90fe0c75a4cd4a03" style="width: 100.0%; height: 100.0%;">멀티캠퍼스</div>`)[0];
+            popup_ce04cf9c257847e89a128bd447c64974.setContent(html_a2b42b5a42c048bb90fe0c75a4cd4a03);
+        
+
+        circle_marker_8684482132af4d05b8e150ba9fa5bb3f.bindPopup(popup_ce04cf9c257847e89a128bd447c64974)
+        ;
+
+        
+    
+</script>

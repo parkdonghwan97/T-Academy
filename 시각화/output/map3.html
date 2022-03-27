@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5abc33d7a13e40c8833143d98f7ec800 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5abc33d7a13e40c8833143d98f7ec800" ></div>
+        
+</body>
+<script>    
+    
+            var map_5abc33d7a13e40c8833143d98f7ec800 = L.map(
+                "map_5abc33d7a13e40c8833143d98f7ec800",
+                {
+                    center: [37.50146, 127.039606],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_26ee02a1f384438e8799612d5ad08f93 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5abc33d7a13e40c8833143d98f7ec800);
+        
+    
+            var marker_bb3de4a7dbf04654b2a14b3c862689ef = L.marker(
+                [37.50146, 127.039606],
+                {}
+            ).addTo(map_5abc33d7a13e40c8833143d98f7ec800);
+        
+    
+            var icon_a7920e76d6fb4723aacf0c17015db62d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bb3de4a7dbf04654b2a14b3c862689ef.setIcon(icon_a7920e76d6fb4723aacf0c17015db62d);
+        
+    
+        var popup_0bbe5968a0b24ed98e92dc73a4e29979 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c82cc69c5f448b6aeca15d7050201bc = $(`<div id="html_9c82cc69c5f448b6aeca15d7050201bc" style="width: 100.0%; height: 100.0%;">멀티캠퍼스 역삼</div>`)[0];
+            popup_0bbe5968a0b24ed98e92dc73a4e29979.setContent(html_9c82cc69c5f448b6aeca15d7050201bc);
+        
+
+        marker_bb3de4a7dbf04654b2a14b3c862689ef.bindPopup(popup_0bbe5968a0b24ed98e92dc73a4e29979)
+        ;
+
+        
+    
+    
+            var marker_4322f1b8f52b4996aa7a54fa7993995c = L.marker(
+                [37.500463, 127.037237],
+                {}
+            ).addTo(map_5abc33d7a13e40c8833143d98f7ec800);
+        
+    
+            var icon_5cf4dd76a6f14ce09c9825bb19b82e03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "train", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4322f1b8f52b4996aa7a54fa7993995c.setIcon(icon_5cf4dd76a6f14ce09c9825bb19b82e03);
+        
+    
+        var popup_38e34ecee6484a65b16c96023561d574 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_619b4ff9cc73440a98874569856cd1ae = $(`<div id="html_619b4ff9cc73440a98874569856cd1ae" style="width: 100.0%; height: 100.0%;">역삼역</div>`)[0];
+            popup_38e34ecee6484a65b16c96023561d574.setContent(html_619b4ff9cc73440a98874569856cd1ae);
+        
+
+        marker_4322f1b8f52b4996aa7a54fa7993995c.bindPopup(popup_38e34ecee6484a65b16c96023561d574)
+        ;
+
+        
+    
+    
+            var circle_marker_62b6475fdcb8441cbd5fdd917924ad23 = L.circleMarker(
+                [37.50146, 127.039606],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_5abc33d7a13e40c8833143d98f7ec800);
+        
+    
+            var circle_marker_d313dcc547644645a046695968e26173 = L.circleMarker(
+                [37.500463, 127.037237],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_5abc33d7a13e40c8833143d98f7ec800);
+        
+</script>
