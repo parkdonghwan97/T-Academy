@@ -1,4 +1,6 @@
 # T-Academy
+![T-Academy](https://user-images.githubusercontent.com/64680900/162596135-34096d04-b9d6-4c76-ac78-4be7eeea0197.png)
+
 Python기반 AI 활용 데이터 분석가 양성 과정
 
 기본 역량 (128H)
